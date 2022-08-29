@@ -16,7 +16,6 @@ let cardsOnSecondStage = 0;
 let cardsOnThirdStage = 0;
 let arrCardsAllStages = [];
 
-
 const ancientsCards = document.querySelectorAll('.ancient__card');
 const ancients = document.querySelectorAll('.ancient__card')
 const difficultyButtons = document.querySelectorAll('.difficulty');
@@ -174,7 +173,6 @@ function init() {
     setBackgroundImageOnAncient();
 }
 
-
 init();
 
 function createDeck() {
@@ -285,8 +283,5 @@ function sumCardsOnStage(stage) {
     }
     return sum;
 }
-
-
-
 
 mixDeckButton.addEventListener('click', createDeck);

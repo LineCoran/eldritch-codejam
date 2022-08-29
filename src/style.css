@@ -6,7 +6,7 @@ h1, h2, p {
 body {
     max-height: 100vh;
     width: 100vw;
-    background: url(/assets/home.png) center center / cover no-repeat;
+    background: url(../assets/home.png) center center / cover no-repeat;
     display: flex;
     gap: 20px;
     justify-content: space-between;
@@ -30,6 +30,11 @@ body {
     cursor: pointer;
     height: 260px;
     width: 220px;
+    transition: 0.5s linear;
+}
+
+.ancient__card-active {
+    border: 2px solid #fff;
 }
 
 .difficulty__container {
@@ -47,6 +52,10 @@ body {
     cursor: pointer;
     color: #fff;
     font-size: 16px;
+}
+
+.difficulty-active {
+    background-color: black;
 }
 
 .deck__container {
@@ -68,15 +77,57 @@ body {
 }
 
 .deck {
-    background-image: url(../assets/mythicCardBackground.png);
-    background-size: cover;
-    height: 190px;
-    width: 130px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
 }
 
 .last__card {
     background-image: url(../assets/mythicCardBackground.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 190px;
-    width: 130px;
+    width: 150px;
+}
+
+.stage__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.stage__text {
+    color: #fff;
+}
+
+.dots__container {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.dot {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    width: 30px;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.brown {
+    background-color: brown;
 }

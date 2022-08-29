@@ -1,0 +1,30 @@
+{
+  "name": "eldritch-codejam",
+  "version": "1.0.0",
+  "description": "CodeJam",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LineCoran/eldritch-codejam.git"
+  },
+  "keywords": [
+    "js",
+    "webpack"
+  ],
+  "author": "LineCoran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LineCoran/eldritch-codejam/issues"
+  },
+  "homepage": "https://github.com/LineCoran/eldritch-codejam#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
